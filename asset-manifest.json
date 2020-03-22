@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/bullscows/static/css/main.a70d07bd.chunk.css",
-    "main.js": "/bullscows/static/js/main.6e4d2d3a.chunk.js",
-    "main.js.map": "/bullscows/static/js/main.6e4d2d3a.chunk.js.map",
+    "main.js": "/bullscows/static/js/main.4ab5aa22.chunk.js",
+    "main.js.map": "/bullscows/static/js/main.4ab5aa22.chunk.js.map",
     "runtime-main.js": "/bullscows/static/js/runtime-main.f250c5dc.js",
     "runtime-main.js.map": "/bullscows/static/js/runtime-main.f250c5dc.js.map",
     "static/js/2.7f59854f.chunk.js": "/bullscows/static/js/2.7f59854f.chunk.js",
     "static/js/2.7f59854f.chunk.js.map": "/bullscows/static/js/2.7f59854f.chunk.js.map",
     "index.html": "/bullscows/index.html",
-    "precache-manifest.3f1dbf7faf8069b00d025a81ae9f2e55.js": "/bullscows/precache-manifest.3f1dbf7faf8069b00d025a81ae9f2e55.js",
+    "precache-manifest.abf90d806143fd2a8b669913d1bf8bbc.js": "/bullscows/precache-manifest.abf90d806143fd2a8b669913d1bf8bbc.js",
     "service-worker.js": "/bullscows/service-worker.js",
     "static/css/main.a70d07bd.chunk.css.map": "/bullscows/static/css/main.a70d07bd.chunk.css.map",
     "static/js/2.7f59854f.chunk.js.LICENSE.txt": "/bullscows/static/js/2.7f59854f.chunk.js.LICENSE.txt",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.f250c5dc.js",
     "static/js/2.7f59854f.chunk.js",
     "static/css/main.a70d07bd.chunk.css",
-    "static/js/main.6e4d2d3a.chunk.js"
+    "static/js/main.4ab5aa22.chunk.js"
   ]
 }
