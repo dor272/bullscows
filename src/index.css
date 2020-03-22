@@ -1,0 +1,112 @@
+body {
+  margin: 0 auto;
+  width: 60%;
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: blanchedalmond;
+  --green: #7ac142;
+  --white: #fff;
+  --curve: cubic-bezier(0.650, 0.000, 0.450, 1.000);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.guess {
+  display: flex;
+  width: 50%;
+  justify-content: center;
+  position: relative;
+  height: 100px;
+  margin: 20px auto 20px auto;
+}
+
+.feedback {
+  position: absolute;
+  left: -50%;
+  line-height: 100px;
+
+}
+
+.values {
+  height: 100%;
+  display: flex;
+  width: 90%;
+  justify-content: center;
+}
+
+.values span, .values input {
+  height: 100%;
+  line-height: 100px;
+  font-size: 3.5em;
+  width: 50%;
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: center;
+
+}
+
+.values input[type=submit]{
+  display: none;
+}
+
+
+.thumbsup{
+  transform: scale(0.65);
+}
+
+/* .values{
+  width: 40%;
+  font-size: 3.5em;
+  display: flex;
+  justify-content: center;
+}
+
+.feedback{
+  align-items: center;
+  height: 100px;
+  line-height: 100px;
+  width: 10%
+}
+
+button{
+  margin: 20px auto;
+  width:25%;
+  display: block;
+}
+
+.values span, .values input{
+  width: 25%;
+  height: 100px;
+
+  display: flex;
+  justify-content: center;
+  border: 1px solid black;
+  border-collapse: collapse;
+  margin-top: 10px;
+
+}
+.values span{
+  line-height: 100px;
+}
+
+.values input{
+  height: 100px;
+  font-size: 1em;
+  text-align: center;
+}
+.values input[type=submit]{
+  display: none;
+}
+ */
+
+.bull {
+  background-color: limegreen;
+}
+
+.cow {
+  background-color: lightgreen;
+}
