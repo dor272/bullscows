@@ -5,8 +5,8 @@ import Guess from './Guess.js';
 import thumbsUp from './thumbsup.png';
 
 function App() {
-  let [entries, setEntries] = useState(/* 0 */[5,9,6]);
-  let [guesses, setGuesses] = useState([[5,6,0]])
+  let [entries, setEntries] = useState(0);
+  let [guesses, setGuesses] = useState([])
 
   const reset = () => {
     setEntries(0);
@@ -55,7 +55,7 @@ const randomizeEntries = (amount) => {
   let jsx;
   if (!entries)
     jsx = <div>
-      <h2>כמה מספרים להגריל?</h2>
+      <h2>?כמה מספרים להגריל</h2>
       <NumberForm
         numOfEntries={1}
         validator={(v) => v < 1 || v > 5}
